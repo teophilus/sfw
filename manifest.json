@@ -11,7 +11,14 @@
     "https://app.teamskeet.com/",
     "https://images.psmcdn.net/",
     "https://assets.psmcdn.net/",
-    "https://cdn.static-srv.com/"
+    "https://cdn.static-srv.com/",
+    "https://app.mylf.com/",
+    "https://images.mylfcdn.net/",
+    "https://assets.mylfcdn.net/",
+    "https://app.sayuncle.com/",
+    "https://images.sucdn.net/",
+    "https://assets.sucdn.net/"
+
   ],
   "declarative_net_request": {
     "rule_resources": [

@@ -15,16 +15,3 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     sendResponse({ status: "Rules toggled" });
   }
 });
-
-// function toggleRules() {
-//   chrome.storage.local.get(["rulesEnabled"], function (result) {
-//     const enable = !(result.rulesEnabled === true); // Toggle the state
-
-//     chrome.declarativeNetRequest.updateEnabledRulesets({
-//       enableRulesetIds: enable ? ["ruleset_1"] : [],
-//       disableRulesetIds: enable ? [] : ["ruleset_1"],
-//     });
-
-//     chrome.storage.local.set({ rulesEnabled: enable });
-//   });
-// }
