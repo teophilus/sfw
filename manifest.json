@@ -3,8 +3,6 @@
   "version": "0.6",
   "description": "PSM: Safe for Work",
   "permissions": [
-    "declarativeNetRequest",
-    "declarativeNetRequestFeedback",
     "storage"
   ],
   "host_permissions": [
@@ -21,15 +19,6 @@
     "https://slimlake26.com/",
     "https://cdn.gsrv.dev/"
   ],
-  "declarative_net_request": {
-    "rule_resources": [
-      {
-        "id": "ruleset_1",
-        "enabled": true,
-        "path": "rules.json"
-      }
-    ]
-  },
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
@@ -41,5 +30,12 @@
     "16": "/icons/icon_16.png",
     "48": "icons/icon_48.png",
     "128": "icons/icon_128.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
 }
