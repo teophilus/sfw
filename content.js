@@ -1,7 +1,8 @@
 // Define classes to exclude from blur
 const exclusionClasses = [
   // Add class names here to exclude elements from blurring
-  'no-blur'
+  "no-blur",
+  ".img-fluid img",
 ];
 
 // Insert CSS for blur effect
@@ -19,6 +20,10 @@ function getBlurCSS() {
     img[src*=".jpeg"],
     img[src*=".webm"],
     video,
+    .spot img,
+    .deals .banner img,
+    .adcontainer,
+    .img-slider img,
     [style*="background-image"],
     .deals-thumb {
       filter: blur(10px) !important;

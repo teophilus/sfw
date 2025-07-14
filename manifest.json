@@ -1,23 +1,14 @@
 {
   "name": "SFW",
-  "version": "0.6",
+  "version": "0.7",
   "description": "PSM: Safe for Work",
   "permissions": [
     "storage"
   ],
   "host_permissions": [
     "https://app.teamskeet.com/",
-    "https://images.psmcdn.net/",
-    "https://assets.psmcdn.net/",
-    "https://cdn.static-srv.com/",
     "https://app.mylf.com/",
-    "https://images.mylfcdn.net/",
-    "https://assets.mylfcdn.net/",
-    "https://app.sayuncle.com/",
-    "https://images.sucdn.net/",
-    "https://assets.sucdn.net/",
-    "https://slimlake26.com/",
-    "https://cdn.gsrv.dev/"
+    "https://app.sayuncle.com/"
   ],
   "manifest_version": 3,
   "background": {
@@ -33,7 +24,14 @@
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": [
+        "https://www.teamskeet.com/*",
+        "https://app.teamskeet.com/*",
+        "https://www.mylf.com/*",
+        "https://app.mylf.com/*",
+        "https://www.sayuncle.com/*",
+        "https://app.sayuncle.com/*"
+      ],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
