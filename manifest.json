@@ -1,6 +1,6 @@
 {
   "name": "SFW",
-  "version": "0.5",
+  "version": "0.6",
   "description": "PSM: Safe for Work",
   "permissions": [
     "declarativeNetRequest",
@@ -17,8 +17,9 @@
     "https://assets.mylfcdn.net/",
     "https://app.sayuncle.com/",
     "https://images.sucdn.net/",
-    "https://assets.sucdn.net/"
-
+    "https://assets.sucdn.net/",
+    "https://slimlake26.com/",
+    "https://cdn.gsrv.dev/"
   ],
   "declarative_net_request": {
     "rule_resources": [
