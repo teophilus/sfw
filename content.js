@@ -21,7 +21,7 @@ function getBlurCSS() {
     video,
     [style*="background-image"],
     .deals-thumb {
-      filter: blur(20px) !important;
+      filter: blur(10px) !important;
     }
     /* Exclude specified classes */
     ${exclusionRule}
