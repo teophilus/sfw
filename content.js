@@ -19,7 +19,8 @@ function getBlurCSS() {
     img[src*=".jpeg"],
     img[src*=".webm"],
     video[src*=".webm"],
-    [style*="background-image"] {
+    [style*="background-image"],
+    .deals-thumb {
       filter: blur(20px) !important;
     }
     /* Exclude specified classes */
