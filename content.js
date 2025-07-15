@@ -24,7 +24,7 @@ function getBlurCSS() {
     .deals .banner img,
     .adcontainer,
     .img-slider img,
-    .binded img,
+    .featureContent figure,
     [style*="background-image"],
     .deals-thumb {
       filter: blur(10px) !important;
