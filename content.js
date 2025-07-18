@@ -26,6 +26,7 @@ function getBlurCSS() {
     .img-slider img,
     .featureContent figure,
     [style*="background-image"],
+    .movie-trailer-player,
     .deals-thumb {
       filter: blur(10px) !important;
     }
