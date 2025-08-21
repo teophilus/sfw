@@ -8,7 +8,8 @@
   "host_permissions": [
     "https://app.teamskeet.com/",
     "https://app.mylf.com/",
-    "https://app.sayuncle.com/"
+    "https://app.sayuncle.com/",
+    "https://app.reptyle.com/"
   ],
   "manifest_version": 3,
   "background": {
