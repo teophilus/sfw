@@ -1,6 +1,6 @@
 {
   "name": "SFW",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "PSM: Safe for Work",
   "permissions": [
     "storage"
@@ -30,7 +30,9 @@
         "https://www.mylf.com/*",
         "https://app.mylf.com/*",
         "https://www.sayuncle.com/*",
-        "https://app.sayuncle.com/*"
+        "https://app.sayuncle.com/*",
+        "https://www.reptyle.com/*",
+        "https://app.reptyle.com/*"
       ],
       "js": ["content.js"],
       "run_at": "document_idle"
